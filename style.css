@@ -22,3 +22,14 @@ header>h1{
 .title {
     background-color: yellowgreen;
 }
+
+.second-container {
+    text-align: center;
+    background-color: aliceblue;
+    padding-top: 5px;
+    padding-bottom: 24px;
+}
+
+.download button {
+background-color: mediumseagreen;
+}
