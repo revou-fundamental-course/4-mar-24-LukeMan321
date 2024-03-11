@@ -2,6 +2,10 @@ header>h1{
     text-align: center;
 }
 
+.paragraph {
+    text-align: justify;
+}
+
 .main-container {
     display: flex;
 }
@@ -26,7 +30,7 @@ header>h1{
 .second-container {
     text-align: center;
     background-color: aliceblue;
-    padding-top: 5px;
+    padding-top: 8px;
     padding-bottom: 24px;
 }
 
