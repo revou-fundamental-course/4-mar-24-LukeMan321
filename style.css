@@ -5,3 +5,20 @@ header>h1{
 .main-container {
     display: flex;
 }
+
+.Form, .result {
+    width: 100%;
+    border: 1px solid;
+}
+
+.Form {
+    text-align: center;
+}
+
+.result {
+    text-align: center;
+}
+
+.title {
+    background-color: yellowgreen;
+}
