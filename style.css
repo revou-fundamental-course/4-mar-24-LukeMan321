@@ -11,16 +11,17 @@ header>h1{
 }
 
 .Form, .result {
-    width: 100%;
-    border: 1px solid;
+    width: 40%;
 }
 
 .Form {
     text-align: center;
+    padding-right: 30px;
 }
 
 .result {
     text-align: center;
+    padding-left: 30px;
 }
 
 .result>p {
