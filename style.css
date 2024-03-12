@@ -23,6 +23,9 @@ header>h1{
     text-align: center;
 }
 
+.result>p {
+    text-align: left;
+}
 .first-container {
     text-align: left;
     padding-top: 16px;
@@ -38,17 +41,33 @@ header>h1{
 
 .second-container {
     text-align: center;
-    background-color: lightcyan;
+    background-color: lightyellow;
     padding-top: 8px;
     padding-bottom: 24px;
 }
 
-.count-button {
+.control-button {
     padding-top: 20px;
 }
 
+.control-button>button {
+    background-color: lightsalmon;
+    block-size: 38px;
+    padding-right: 15px;
+    border: 0cap;
+}
+
+.Specification {
+    background-color: white;
+}
+
+.eksplanation {
+    background-color: white;
+    text-align: justify;
+}
+
 .download button {
-background-color: lightblue;
+background-color: lightsalmon;
 block-size: 38px;
 padding-right: 20px;
 border: 0px;
