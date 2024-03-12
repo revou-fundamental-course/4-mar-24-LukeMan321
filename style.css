@@ -26,6 +26,7 @@ header>h1{
 .first-container {
     text-align: left;
     padding-top: 16px;
+    background-color: lightgray;
 }
 
 .sex-container {
@@ -41,6 +42,10 @@ header>h1{
     background-color: aliceblue;
     padding-top: 8px;
     padding-bottom: 24px;
+}
+
+.count-button {
+    padding-top: 20px;
 }
 
 .download button {
