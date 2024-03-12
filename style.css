@@ -24,7 +24,7 @@ header>h1{
 }
 
 .result>p {
-    text-align: left;
+    text-align: justify;
 }
 .first-container {
     text-align: left;
@@ -86,6 +86,7 @@ border: 0px;
 .obesity-indicator {
     background-color: lightcyan;
     text-align: center;
+    padding-top: 5px;
 }
 
 .obesity-indicator>button {
