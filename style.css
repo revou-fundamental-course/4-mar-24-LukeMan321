@@ -23,6 +23,10 @@ header>h1{
     text-align: center;
 }
 
+.first-container {
+    text-align: left;
+    padding-top: 16px;
+}
 .title {
     background-color: yellowgreen;
 }
