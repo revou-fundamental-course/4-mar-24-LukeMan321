@@ -26,7 +26,7 @@ header>h1{
 .first-container {
     text-align: left;
     padding-top: 16px;
-    background-color: lightgray;
+    background-color: lightyellow;
 }
 
 .sex-container {
@@ -34,12 +34,11 @@ header>h1{
 }
 
 .title {
-    background-color: yellowgreen;
 }
 
 .second-container {
     text-align: center;
-    background-color: aliceblue;
+    background-color: lightcyan;
     padding-top: 8px;
     padding-bottom: 24px;
 }
@@ -49,5 +48,8 @@ header>h1{
 }
 
 .download button {
-background-color: mediumseagreen;
+background-color: lightblue;
+block-size: 38px;
+padding-right: 20px;
+border: 0px;
 }
