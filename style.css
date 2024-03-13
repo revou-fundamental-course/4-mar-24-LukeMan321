@@ -110,3 +110,7 @@ color: white;
     color: whitesmoke;
     border-radius: 8px;
 }
+
+.result>img {
+    width: 400px;
+}
