@@ -37,8 +37,6 @@ header>h1{
     padding-bottom: 16px;
 }
 
-.title {
-}
 
 .second-container {
     text-align: center;
@@ -52,10 +50,20 @@ header>h1{
 }
 
 .control-button>button {
-    background-color: lightskyblue;
     block-size: 38px;
     padding-right: 15px;
     border: 0cap;
+    border-radius: 8px;
+}
+
+.control-button>#calculate-button {
+    background-color: orange;
+    color: white;
+}
+
+.control-button>#reset-button {
+    background-color: lightgreen;
+    color: white;
 }
 
 .Specification {
@@ -68,16 +76,21 @@ header>h1{
 }
 
 .download button {
-background-color: lightskyblue;
+background-color: orange;
 block-size: 38px;
 padding-right: 20px;
+padding-left: 20px;
 border: 0px;
+border-radius: 8px;
+color: white;
 }
 
 .consultation-link>button {
     block-size: 38px;
-    background-color: lightskyblue;
+    background-color: lightgreen;
     border: 0cap;
+    border-radius: 8px;
+    color: white;
 }
 
 .consultation-link>p {
@@ -94,4 +107,6 @@ border: 0px;
     block-size: 38px;
     border: 0cap;
     background-color: orange;
+    color: whitesmoke;
+    border-radius: 8px;
 }
