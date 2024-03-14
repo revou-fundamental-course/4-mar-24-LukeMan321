@@ -9,6 +9,7 @@
         <h1>Kalkulator BMI (Body Mass Index)</h1>
     </header>
     <main>
+        <!--Display Form-->
         <div class="main-container">
             <div class="Form">
                 <h2>Form BMI</h2>
@@ -53,25 +54,19 @@
                     </div>
                 </section>
             </div>
+            <!--Display Result-->
                 <div class="result">
                     <h2>Hasil</h2>
                     <section class="second-container">
                         <h4>Indikator BMI</h4>
-                        <H1>0</H1>
-                        <h4>Anda memiliki berat badan berlebih</h4>
+                        <H1 id="result-count">0</H1>
+                        <h4 id="display-status" onclick="BMIStatus()"></h4> <!--Memanggil Status BMI-->
                         <div class="download button" onclick="download()">
                             <button type="button">Download Hasil BMI</button>
                         </div>
                     </section>
-                        <p>Hasil BMI di antara 23 dan 25.</p>
-                        <p>Anda berada dalam kategori overweight atau berat badan berlebih. Cara terbaik untuk menurunkan berat badan adalah dengan mengatur kalori makanan yang dikonsumsi dan berolahraga. Jika BMI anda ada pada kategori ini maka anda dianjurkan untuk menurunkan berat badan hingga batas normal.</p>
-                    <div class="consultation-link">
-                        <button type="button" id="first-consult" onclick="consultation()">Konsultasi Ahli Gizi Via Aplikasi</button>
-                        <button type="button" id="first-regist" onclick="firstregist()">Registrasi Online Ahli Gisi</button>
-                        <P>BMI tidak sepenuhnya mewakili diagnosis menyeluruh dari kesehatan tubuh dan resiko penyakit seseorang. Anda perlu Konsultasi lebih lanjut mengenai resiko dan kekhawatiran anda terkait dengan berat badan anda.</P><br />
-                    </div>
                     <div class="obesity-indicator">
-                        <h3>Beberapa penyakit yang berasal dari kegemukan</h3>
+                        <h3>Beberapa penyakit yang harus anda waspadai Jika BMI anda diatas rata-rata!</h3>
                         <p>Diabetes</p>
                         <p>hipertensi</p>
                         <p>Sakit Jantung</p>
