@@ -57,12 +57,12 @@ function firstregist() {
 //Kode Validasi "konsultasi dokter via aplikasi lekasehat"
 function secconsult () {
     let secconsult = document.getElementById('sec-consult').item
-    console.log (window.location.href = "https://play.google.com/store/apps/details?id=com.lekasehat.user")
+    return (window.location.href = "https://play.google.com/store/apps/details?id=com.lekasehat.user")
 }
 
 //Kode Validasi "Registrasi Online Sekarang"
 function secregist () {
     let secconsult = document.getElementById('secregist').item
-    console.log (window.location.href = "https://www.halodoc.com/")
+    return (window.location.href = "https://www.halodoc.com/")
 }
 
