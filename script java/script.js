@@ -1,7 +1,7 @@
 // Kode Validasi Jenis Kelamin
 function validate() {
-    let sexOption = document.getElementById("sex-man").CDATA_SECTION_NODE
-
+    let sexOption = document.getElementById("sex-man").item
+    console.log('')
 }
 
 
@@ -45,7 +45,7 @@ function download() {
 //Kode Validasi "Konsultasi Ahli Gizi via Aplikasi"
 function consultation() {
     let firstConsult = document.getElementById('first-consult').item
-    alert('Silahkan Download APlikasi')
+    alert('Silahkan Download Aplikasi lekasehat')
 }
 
 //Kode Validasi "Registrasi online Hli Gizi"
@@ -54,5 +54,15 @@ function firstregist() {
     alert('Anda akan dialihkan menuju halodoc')
 }
 
+//Kode Validasi "konsultasi dokter via aplikasi lekasehat"
+function secconsult () {
+    let secconsult = document.getElementById('sec-consult').item
+    console.log (window.location.href = "https://play.google.com/store/apps/details?id=com.lekasehat.user")
+}
 
+//Kode Validasi "Registrasi Online Sekarang"
+function secregist () {
+    let secconsult = document.getElementById('secregist').item
+    console.log (window.location.href = "https://www.halodoc.com/")
+}
 
