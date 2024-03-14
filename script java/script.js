@@ -42,4 +42,17 @@ function download() {
     alert('Hasil BMI anda Sedang di Download')
     }
 
+//Kode Validasi "Konsultasi Ahli Gizi via Aplikasi"
+function consultation() {
+    let firstConsult = document.getElementById('first-consult').item
+    alert('Silahkan Download APlikasi')
+}
+
+//Kode Validasi "Registrasi online Hli Gizi"
+function firstregist() {
+    let firstRegist = document.getElementById('first-regist').item
+    alert('Anda akan dialihkan menuju halodoc')
+}
+
+
 
