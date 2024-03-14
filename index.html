@@ -18,8 +18,8 @@
                 <section class="first-container">
                     <div class="sex-container">
                         <label>Jenis Kelamin</label><br />
-                        <input type="radio" id="sex-man"><label for="sex-man" onclick="validate()">Laki-Laki</label>
-                        <input type="radio" id="sex-woman"><label for="sex-woman" onclick="validate()">Perempuan</label>
+                        <input type="radio" id="sex-man"><label for="sex-man">Laki-Laki</label>
+                        <input type="radio" id="sex-woman"><label for="sex-woman">Perempuan</label>
                     </div>
                     <div class="form-container">
                         <label>Berat Badan (kg)</label><br />
@@ -37,7 +37,7 @@
                     </div>
                     <div class="control-button">
                         <button type="button" id="calculate-button" onclick="calculate()">Hitung BMI</button>
-                        <button type="button" id="reset-button">Reset</button>
+                        <button type="button" id="reset-button" onclick="reset()">Reset</button>
                     </div>
                     <div class="Specification"> 
                         <h3>Keunggulan Fitur</h3>
@@ -56,7 +56,7 @@
                 <div class="result">
                     <h2>Hasil</h2>
                     <section class="second-container">
-                        <h4>Berat Badan Lebih</h4>
+                        <h4>Indikator BMI</h4>
                         <H1>0</H1>
                         <h4>Anda memiliki berat badan berlebih</h4>
                         <div class="download button" onclick="download()">

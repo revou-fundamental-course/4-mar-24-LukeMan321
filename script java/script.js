@@ -1,11 +1,3 @@
-// Kode Validasi Jenis Kelamin
-function validate() {
-    let sexOption = document.getElementById("sex-man").item
-    console.log('')
-}
-
-
-
 
 // Kode Validasi form berat badan
 function calculate() {
@@ -15,7 +7,7 @@ function calculate() {
     console.log(ageInput.value)
     let tallInput = document.getElementById("tall"). value;
     console.log(tallInput.value)
-
+    
     if (weightInput == '') {
         alert('Harap isi Berat Badan Anda')
     } else {
@@ -33,8 +25,8 @@ function calculate() {
     } else {
         console.log ('Number')
     }
+    
 }
-
 
 //Kode Validasi "Download Hasil BMI"
 function download() {
@@ -65,4 +57,3 @@ function secregist () {
     let secconsult = document.getElementById('secregist').item
     return (window.location.href = "https://www.halodoc.com/")
 }
-
